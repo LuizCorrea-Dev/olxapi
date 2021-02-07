@@ -1,0 +1,31 @@
+users
+ - _id
+ - name
+ - email
+ - state
+ - passwordHash
+ - token
+
+ states
+ - _id
+ - name
+
+ categories
+ - _id
+ - name
+ - slug
+
+ ad
+ - _id
+ - idUser // usuário que criou o anuncio
+ - state
+ - caterory
+
+ - images [{ url, default: true }] // se é a imagem padrão
+ - dateCreated // data que foi cria do o anuncio
+ - title
+ - price
+ - priceNegotiable: true
+ - description
+ - views
+ - status // ativo ou inativo
